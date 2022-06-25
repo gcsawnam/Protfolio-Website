@@ -244,6 +244,33 @@ h1.hello span {
   color: red;
 }
 
+ @media screen and (max-width: 870px) {
+  #section1 h1 {
+    display: block;
+    float: left;
+    padding-right: 200px;
+    
+  }
+}
+  
+  @media screen and (max-width:375px) {
+    #section1 h1{
+      display: block;
+      float: left;
+      font-size: 15px;
+      
+      padding-left: 100px;
+      padding-right: 300px;
+      
+    }
+  
+}
+
+
+
+
+
+
 #section1{
   display: flex;
   flex-wrap: wrap;
@@ -252,25 +279,15 @@ h1.hello span {
 #section1 h1{
   font-size: 25px;
    position: relative;
-   left: 150px;
-   top: 120px;
+   left: 70px;
+   top: 70px;
     margin-bottom: 20px;
     
     color:var(--text-black-700);
 
   }
-#section1 .image{
-  height: 50vh; 
- 
- border-radius:30% 70% 70% 30% / 30% 30% 70% 70%;
 
-position: relative; 
-top:30px;
-left: 100px; 
-bottom:200px; 
 
-right: 150px;
-}
 
 
 
@@ -1068,4 +1085,3 @@ width: 400px;
   margin: 20px;
   padding-left: 10px;
   }
-
