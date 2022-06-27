@@ -320,6 +320,18 @@ h1.hello span {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
+    position: relative;
+    top: 70px;
+    left: 15px;
+    right: 5px;
+    
+  }
+  #hero p{
+    font-size: 28px;
+    line-height: 36px;
+    position: relative;
+    top: 80px;
+    left: 50px;
   }
   #hero h2 {
     font-size: 18px;
